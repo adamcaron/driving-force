@@ -1,0 +1,9 @@
+{
+  "firebase": "blinding-inferno-8120",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
