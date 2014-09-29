@@ -1,10 +1,5 @@
 # Project Profile:
-View my ultimate vision and ultimate purpose. 
-... so I can focus on this and imbue my mind with it.
-... so I can relate all my efforts, energy, and behaviours with this.
-... because this drives me and motivates me.
-
-"My Driving Force" is a minimal application used to fuel myself, my behaviour, and everything I do. The purpose is to consolidate all my action into a holistic, full-integrated, and focused effort.
+"My Driving Force" is a minimal application used to fuel my motivation. The purpose is to consolidate all my action into a holistic, full-integrated, and focused effort.
 
 This app will display My Ultimate Vision, My Ultimate Purpose, and subsequently all actions that follow such as Categories of Constant Improvement, Key Results, Projects, and more specific results related to my Ultimate Vision.
 
