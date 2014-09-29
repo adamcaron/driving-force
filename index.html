@@ -6,16 +6,16 @@
 <body>
 <h1>Hello Waldo!</h1>
 
-<ul ng-controller="customersController">
-  <li ng-repeat="x in names">
+<ul ng-controller="herosController">
+  <li ng-repeat="x in heros">
     {{ x.Name + ', ' + x.Country }}
   </li>
 </ul>
 
 <script>
-function customersController($scope,$http) {
+function herosController($scope,$http) {
   $http.get("http://www.w3schools.com//website/Customers_JSON.php")
-  .success(function(response) {$scope.names = response;});
+  .success(function(response) {$scope.heros = response;});
 }
 </script>
 
