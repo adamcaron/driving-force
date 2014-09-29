@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="">
 <head>
 <title>My Driving Force</title>
 </head>
 <body>
 <h1>Hello Waldo!</h1>
+
+<ul ng-controller="customersController">
+  <li ng-repeat="x in names">
+    {{ x.Name + ', ' + x.Country }}
+  </li>
+</ul>
+
+<script>
+function customersController($scope,$http) {
+  $http.get("http://www.w3schools.com//website/Customers_JSON.php")
+  .success(function(response) {$scope.names = response;});
+}
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 </body>
 </html>
